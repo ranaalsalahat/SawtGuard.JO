@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Uploaded audio files
+uploads/
+
+# AI model weights
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.safetensors
+
+# Local test audio
+test.txt
+fake_audio.wav
+large_test.wav
+sawt_test_audio.wav
+
+# Backup files
+*.bak
+main_backup.py
+main_before_security.py
+main_before_request_size.py
+
+# Editor files
+.vscode/
+.idea/
